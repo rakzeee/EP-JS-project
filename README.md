@@ -9,6 +9,8 @@ API: CryptoCompare.
 It's popular API for getting any kind of data about cryptocurrency that is used in many popular projects.
 
 Something like this:
+
+
 ![alt text](https://steemitimages.com/DQmNzTPxKZPVyx2btbnnfaCsgQQ28jQW7uQjGupfVG7MNsP/bitcoin-price.png)
 Graphs:
 ![alt text](https://thebitcoinpub-91d3.kxcdn.com/uploads/default/original/2X/7/7290cd4009e0f2e04617840cb50feef72b2e9db7.png)
