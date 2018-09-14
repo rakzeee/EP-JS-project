@@ -8,9 +8,11 @@ I will use this library because it's good for rendering some real-time data repr
 API: CryptoCompare.
 It's popular API for getting any kind of data about cryptocurrency that is used in many popular projects.
 
-Something like this:
+Something like this (graphs, pricing etc.):
 
 
 ![alt text](https://steemitimages.com/DQmNzTPxKZPVyx2btbnnfaCsgQQ28jQW7uQjGupfVG7MNsP/bitcoin-price.png)
-Graphs:
+
+
+
 ![alt text](https://thebitcoinpub-91d3.kxcdn.com/uploads/default/original/2X/7/7290cd4009e0f2e04617840cb50feef72b2e9db7.png)
