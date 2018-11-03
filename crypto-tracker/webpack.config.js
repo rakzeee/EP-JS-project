@@ -11,12 +11,13 @@ function srcPath(subdir) {
 module.exports = {
   mode: "development",
   entry: {
-    defaultapp1: ["./src/index.js"]
+    defaultapp1: ["./src/index.jsx"]
   },
   // target: 'node',
   output: {
     path: path.join(__dirname, outputDirectory),
-    filename: "[name].js"
+    filename: "[name].js",
+    publicPath: '/'
   },
   devtool: "source-map",
   devServer: {
