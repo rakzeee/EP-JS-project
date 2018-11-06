@@ -1,3 +1,4 @@
+const path = require('path');
 const hotClient = require('webpack-hot-client');
 const middleware = require('webpack-dev-middleware');
 const webpack = require('webpack');
@@ -12,18 +13,18 @@ const options = { }; // webpack-hot-client options
 const client = hotClient(compiler, options);
 const { server } = client;
 server.on('listening', () => {
-  app.use(middleware(compiler, { publicPath }));
+    app.use(middleware(compiler, { publicPath }));
 
-  // Fallback when no previous route was matched
-  app.get('*', (req, res, next) => {
-      const filename = path.resolve(compiler.outputPath, 'index.html');
-      compiler.outputFileSystem.readFile(filename, (err, result) => {
-          if (err) {
-              return next(err);
-          }
-          res.set('content-type','text/html');
-          res.send(result);
-          res.end();
-      });
-  });
+    // Fallback when no previous route was matched
+    app.get('*', (req, res, next) => {
+        const filename = path.resolve(compiler.outputPath, 'index.html');
+        compiler.outputFileSystem.readFile(filename, (err, result) => {
+            if (err) {
+                return next(err);
+            }
+            res.set('content-type','text/html');
+            res.send(result);
+            res.end();
+        });
+    });
 });
