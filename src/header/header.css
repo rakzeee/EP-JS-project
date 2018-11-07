@@ -1,0 +1,50 @@
+header {
+    height: 100px;
+    background-color: slategray;
+    display: flex;
+}
+
+header .about {
+    margin-left: auto;
+    height: 100%;
+    width: 150px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+header .title {
+    margin-left: 20px;
+    height: 100%;
+    width: 150px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+header .link {
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+}
+
+header .buttons{
+    margin-left: auto;
+}
+
+header .head {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header .news {
+    margin-left: auto;
+    height: 100%;
+    width: 150px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+header .logo{
+    max-width: 50px;
+    max-height: 50px;
+}
