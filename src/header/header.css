@@ -1,9 +1,11 @@
 header {
     height: 100px;
-    background-color: slategray;
+    background-color: rgb(157, 199, 216);
     display: flex;
 }
-
+a { 
+    text-decoration: none;
+}
 header .about {
     margin-left: auto;
     height: 100%;
@@ -15,9 +17,7 @@ header .about {
 header .title {
     margin-left: 20px;
     height: 100%;
-    width: 150px;
-    font-weight: 700;
-    font-size: 20px;
+    width: 300px;
 }
 
 header .link {
