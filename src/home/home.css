@@ -1,0 +1,53 @@
+.crypto-prices{
+    border-radius: 3px;
+    background: rgb(220, 234, 247);
+    display: inline-block;
+    width: 230px;
+    padding-bottom: 4px;
+    box-shadow: 1px 1px 0 rgb(133, 133, 133);
+}
+.graph-container {
+    border-radius: 3px;
+    background: rgb(220, 234, 247);
+    box-shadow: 1px 1px 0 rgb(133, 133, 133);
+    vertical-align: top;
+    margin-left: 30px;
+    margin-right: 0px;
+    width: 75%;
+    float: right;
+    padding : 15px;
+}
+.graph{
+    background: white;
+}
+.graph-title{
+    text-align: center;
+}
+.title-prices{
+    padding-top: 4px;
+    margin-bottom:10px;
+    text-align: center;
+    margin-left: 2%;
+}
+div#crypto-container{
+    background: white;
+    height: 60px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1em;
+    box-shadow: 1px 1px 0 lightgrey;
+}
+span.currency {
+    vertical-align: top;
+    font-weight: bold;
+    width: 45%;
+    display: inline-block;
+}
+
+span.prices{
+   width: 55%;
+   text-align: right;
+   display: inline-block;
+}
